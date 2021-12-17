@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="container">
+<!--값을 입력하는 부분form-->
+    <form action="/members/new" method="post">
+        <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+<!--                텍스트입력    키                   아무것도없을때 써져잇는것       -->
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</div>
+
+</body>
+</html>
